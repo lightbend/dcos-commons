@@ -74,6 +74,7 @@ configurations {
 }
 
 dependencies {
+    compile project(":api")
     compile project(":common")
     compile "com.fasterxml.jackson.datatype:jackson-datatype-guava:${jacksonVer}"
     compile "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:${jacksonVer}"

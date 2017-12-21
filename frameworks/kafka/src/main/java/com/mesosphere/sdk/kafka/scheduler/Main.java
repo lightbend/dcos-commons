@@ -9,12 +9,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.mesosphere.sdk.api.types.EndpointProducer;
 import com.mesosphere.sdk.curator.CuratorUtils;
-import com.mesosphere.sdk.kafka.api.BrokerResource;
-import com.mesosphere.sdk.kafka.api.KafkaZKClient;
-import com.mesosphere.sdk.kafka.api.TopicResource;
+import com.mesosphere.sdk.http.types.EndpointProducer;
 import com.mesosphere.sdk.kafka.cmd.CmdExecutor;
+import com.mesosphere.sdk.kafka.http.BrokerResource;
+import com.mesosphere.sdk.kafka.http.KafkaZKClient;
+import com.mesosphere.sdk.kafka.http.TopicResource;
 import com.mesosphere.sdk.scheduler.DefaultScheduler;
 import com.mesosphere.sdk.scheduler.SchedulerBuilder;
 import com.mesosphere.sdk.scheduler.SchedulerConfig;

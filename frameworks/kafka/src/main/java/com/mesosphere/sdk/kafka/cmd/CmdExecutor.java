@@ -1,10 +1,11 @@
 package com.mesosphere.sdk.kafka.cmd;
 
-import com.mesosphere.sdk.kafka.api.KafkaZKClient;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import com.mesosphere.sdk.kafka.http.KafkaZKClient;
 
 import java.nio.charset.Charset;
 import java.util.List;
